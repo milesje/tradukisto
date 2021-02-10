@@ -19,11 +19,13 @@ import static pl.allegro.finance.tradukisto.internal.Container.serbianContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.slovakContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.turkishContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.ukrainianContainer;
+import static pl.allegro.finance.tradukisto.internal.Container.usEnglishContainer;
 
 public enum MoneyConverters {
 
     BRAZILIAN_PORTUGUESE_BANKING_MONEY_VALUE(brazilianPortugueseContainer().getBankingMoneyConverter()),
     ENGLISH_BANKING_MONEY_VALUE(englishContainer().getBankingMoneyConverter()),
+    US_BANKING_MONEY_VALUE(usEnglishContainer().getBankingMoneyConverter()),
     GERMAN_BANKING_MONEY_VALUE(germanContainer().getBankingMoneyConverter()),
     RUSSIAN_BANKING_MONEY_VALUE(russianContainer().getBankingMoneyConverter()),
     POLISH_BANKING_MONEY_VALUE(polishContainer().getBankingMoneyConverter()),

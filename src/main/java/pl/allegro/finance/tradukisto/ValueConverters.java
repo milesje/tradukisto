@@ -17,11 +17,13 @@ import static pl.allegro.finance.tradukisto.internal.Container.serbianContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.slovakContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.turkishContainer;
 import static pl.allegro.finance.tradukisto.internal.Container.ukrainianContainer;
+import static pl.allegro.finance.tradukisto.internal.Container.usEnglishContainer;
 
 public enum ValueConverters {
 
     BRAZILIAN_PORTUGUESE_INTEGER(brazilianPortugueseContainer().getNumbersConverter()),
     ENGLISH_INTEGER(englishContainer().getNumbersConverter()),
+    USENGLISH_INTEGER(usEnglishContainer().getNumbersConverter()),
     GERMAN_INTEGER(germanContainer().getNumbersConverter()),
     RUSSIAN_INTEGER(russianContainer().getNumbersConverter()),
     ITALIAN_INTEGER(italianContainer().getNumbersConverter()),
